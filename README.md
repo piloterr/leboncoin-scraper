@@ -156,10 +156,10 @@ Example response from the API reference, abridged — real values depend on the 
   "url": "https://www.leboncoin.fr/voitures/2715494476.htm",
   "body": "Renault Clio IV 1.5 DCI 90. Carnet d'entretien complet, CT OK, première main.",
   "owner": {
-    "name": "Jean-Marc",
-    "type": "private",
+    "name": "example",
+    "type": "example",
     "siren": null,
-    "user_id": "abc123456"
+    "user_id": "example"
   },
   "price": [
     8500
@@ -348,8 +348,8 @@ Example response from the API reference, abridged — real values depend on the 
       "url": "https://www.leboncoin.fr/voitures/2718234567.htm",
       "body": "Renault Megane IV Estate diesel, CT valable 2 ans, révision à jour, non fumeur.",
       "owner": {
-        "name": "Sophie",
-        "type": "private"
+        "name": "example",
+        "type": "example"
       },
       "price": [
         9900
