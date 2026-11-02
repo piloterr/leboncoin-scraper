@@ -70,7 +70,7 @@ response = requests.get(
     params={
         "query": "3012186547",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -262,7 +262,7 @@ response = requests.get(
     params={
         "query": "https://www.leboncoin.fr/c/offres_d_emploi?locations=Paris_75015__48.84105_2.29926_2747",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
